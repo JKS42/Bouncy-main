@@ -329,7 +329,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 5266124945606f04c98a9746944bd2ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7586,8 +7586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26cb99cc359ab4645900e238ec1a6eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueForce: 8
-  jumpForce: 10
+  torqueForce: 6
+  jumpForce: 4
   airControlMultiplier: 0.2
   maxAngularVelocity: 25
   rotationSpeed: 90
@@ -7626,13 +7626,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656253163}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26cb99cc359ab4645900e238ec1a6eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueForce: 1
-  jumpForce: 1
+  torqueForce: 8
+  jumpForce: 10
   airControlMultiplier: 0.2
   maxAngularVelocity: 50
   rotationSpeed: 90
@@ -7649,8 +7649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26cb99cc359ab4645900e238ec1a6eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torqueForce: 1
-  jumpForce: 1
+  torqueForce: 8
+  jumpForce: 10
   airControlMultiplier: 0.2
   maxAngularVelocity: 50
   rotationSpeed: 90
