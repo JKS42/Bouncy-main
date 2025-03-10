@@ -16,10 +16,21 @@ public class BallController : MonoBehaviour
     private Vector3 startLocation;
     public Vector3 StartLocation { get { return startLocation; } set { startLocation = value; } }
     public Vector3 StartLocation2 { get; set; }
+    public static BallController instance;
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody>();
+       
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    
+    rb = GetComponent<Rigidbody>();
         rb.maxAngularVelocity = maxAngularVelocity;
 
         //helper

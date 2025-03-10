@@ -64,12 +64,15 @@
     <Compile Include="Assets\Scripts\Obstacle.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\BombSpawner.cs" />
+    <Compile Include="Assets\Scripts\Tower\Tower.cs" />
     <Compile Include="Assets\Scripts\CheckPoint.cs" />
     <Compile Include="Assets\Scripts\Portal.cs" />
     <Compile Include="Assets\Scripts\ObjectPool.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\BouncyPad.cs" />
+    <Compile Include="Assets\Scripts\Tower\QuickCollision.cs" />
     <Compile Include="Assets\Scripts\ShrinkingPortal.cs" />
+    <Compile Include="Assets\Scripts\Tower\TurrentScript.cs" />
     <Compile Include="Assets\Scripts\BallController.cs" />
     <Compile Include="Assets\Scripts\ObsacleSpawner.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
