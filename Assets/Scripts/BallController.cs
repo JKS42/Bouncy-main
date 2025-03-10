@@ -14,6 +14,8 @@ public class BallController : MonoBehaviour
     public Transform orientation;
 
     private Vector3 startLocation;
+    public Vector3 StartLocation { get { return startLocation; } set { startLocation = value; } }
+    public Vector3 StartLocation2 { get; set; }
 
     private void Awake()
     {
@@ -95,6 +97,10 @@ public class BallController : MonoBehaviour
     private bool CheckGrounded()
     {
         return Physics.Raycast(transform.position, Vector3.down, 0.7f);
+    }
+    public void ChangeCheckPoint(Vector3 newLocation)
+    {
+        startLocation = newLocation;
     }
 
 
